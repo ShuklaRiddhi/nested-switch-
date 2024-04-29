@@ -1,0 +1,40 @@
+program - WAP A PROGRAM USING NESTED SWITCH
+public class nestedswitch {
+public static void main(strings[] args) {
+scanner in  = new scanner(system.in){
+int empID = in.nextInt();
+string department = in.next();
+switch (empID) {
+case 1:
+system.out.println("riddhi shukla");
+break;
+case 2:
+system.out.println("ayun shukla")
+break;
+case 4:
+system.out.println("vikas awasthi");
+break;
+case 5:
+switch (department) {
+case "IT":
+system.out.println("IT department")
+break;
+case "management"
+system.out.println("MBA department");
+break;
+default:
+system.out.println("no deaprtment entered");
+break;
+}
+}
+}
+}
+
+
+
+
+
+
+
+
+
